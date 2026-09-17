@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JsonDatabaseString" xml:space="preserve">
+    <value>[{"Block_rashet":1,"Glinozem":12,"Id":1,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":0.8,"y":11},{"Block_rashet":1,"Glinozem":12,"Id":2,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":0.9,"y":11},{"Block_rashet":1,"Glinozem":12,"Id":3,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1,"y":8},{"Block_rashet":1,"Glinozem":12,"Id":4,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1.07,"y":7.5},{"Block_rashet":1,"Glinozem":12,"Id":5,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1.15,"y":7},{"Block_rashet":1,"Glinozem":12,"Id":6,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1.2,"y":8},{"Block_rashet":1,"Glinozem":12,"Id":7,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":0.8,"y":10},{"Block_rashet":1,"Glinozem":12,"Id":8,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":0.9,"y":9.5},{"Block_rashet":1,"Glinozem":12,"Id":9,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1,"y":7.8},{"Block_rashet":1,"Glinozem":12,"Id":10,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1.07,"y":6.5},{"Block_rashet":1,"Glinozem":12,"Id":11,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1.15,"y":7.5},{"Block_rashet":1,"Glinozem":12,"Id":12,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1.2,"y":11},{"Block_rashet":1,"Glinozem":12,"Id":13,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":0.8,"y":9.5},{"Block_rashet":1,"Glinozem":12,"Id":14,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":0.9,"y":9},{"Block_rashet":1,"Glinozem":12,"Id":15,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1,"y":7.5},{"Block_rashet":1,"Glinozem":12,"Id":16,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1.07,"y":6.8},{"Block_rashet":1,"Glinozem":12,"Id":17,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1.15,"y":7},{"Block_rashet":1,"Glinozem":12,"Id":18,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1.2,"y":12},{"Block_rashet":1,"Glinozem":12,"Id":19,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":0.8,"y":9},{"Block_rashet":1,"Glinozem":12,"Id":20,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":0.9,"y":9},{"Block_rashet":1,"Glinozem":12,"Id":21,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1,"y":7},{"Block_rashet":1,"Glinozem":12,"Id":22,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1.07,"y":7},{"Block_rashet":1,"Glinozem":12,"Id":23,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1.15,"y":7},{"Block_rashet":1,"Glinozem":12,"Id":24,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1.2,"y":15},{"Block_rashet":2,"Glinozem":5,"Id":25,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":0.8,"y":12.1},{"Block_rashet":2,"Glinozem":5,"Id":26,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":0.9,"y":12},{"Block_rashet":2,"Glinozem":5,"Id":27,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1,"y":10},{"Block_rashet":2,"Glinozem":5,"Id":28,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1.07,"y":9.8},{"Block_rashet":2,"Glinozem":5,"Id":29,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1.15,"y":9.6},{"Block_rashet":2,"Glinozem":5,"Id":30,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1.2,"y":9.3},{"Block_rashet":2,"Glinozem":5,"Id":31,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":0.8,"y":8.6},{"Block_rashet":2,"Glinozem":5,"Id":32,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":0.9,"y":10},{"Block_rashet":2,"Glinozem":5,"Id":33,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1,"y":9.5},{"Block_rashet":2,"Glinozem":5,"Id":34,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1.07,"y":9.2},{"Block_rashet":2,"Glinozem":5,"Id":35,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1.15,"y":9.3},{"Block_rashet":2,"Glinozem":5,"Id":36,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1.2,"y":9.5},{"Block_rashet":2,"Glinozem":5,"Id":37,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":0.8,"y":8.3},{"Block_rashet":2,"Glinozem":5,"Id":38,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":0.9,"y":8.5},{"Block_rashet":2,"Glinozem":5,"Id":39,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1,"y":9.1},{"Block_rashet":2,"Glinozem":5,"Id":40,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1.07,"y":9},{"Block_rashet":2,"Glinozem":5,"Id":41,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1.15,"y":9},{"Block_rashet":2,"Glinozem":5,"Id":42,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1.2,"y":10},{"Block_rashet":2,"Glinozem":5,"Id":43,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":0.8,"y":7.8},{"Block_rashet":2,"Glinozem":5,"Id":44,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":0.9,"y":8},{"Block_rashet":2,"Glinozem":5,"Id":45,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1,"y":8.5},{"Block_rashet":2,"Glinozem":5,"Id":46,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1.07,"y":9.1},{"Block_rashet":2,"Glinozem":5,"Id":47,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1.15,"y":9.3},{"Block_rashet":2,"Glinozem":5,"Id":48,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1.2,"y":10},{"Block_rashet":3,"Glinozem":15,"Id":49,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":0.8,"y":15.1},{"Block_rashet":3,"Glinozem":15,"Id":50,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":0.9,"y":13},{"Block_rashet":3,"Glinozem":15,"Id":51,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1,"y":12},{"Block_rashet":3,"Glinozem":15,"Id":52,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1.07,"y":11},{"Block_rashet":3,"Glinozem":15,"Id":53,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1.15,"y":10},{"Block_rashet":3,"Glinozem":15,"Id":54,"K_MgO":5,"Nomer_rashet":1,"Temperature":1400,"x":1.2,"y":9},{"Block_rashet":3,"Glinozem":15,"Id":55,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":0.8,"y":10},{"Block_rashet":3,"Glinozem":15,"Id":56,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":0.9,"y":10},{"Block_rashet":3,"Glinozem":15,"Id":57,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1,"y":9.3},{"Block_rashet":3,"Glinozem":15,"Id":58,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1.07,"y":9},{"Block_rashet":3,"Glinozem":15,"Id":59,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1.15,"y":11},{"Block_rashet":3,"Glinozem":15,"Id":60,"K_MgO":10,"Nomer_rashet":2,"Temperature":1400,"x":1.2,"y":12},{"Block_rashet":3,"Glinozem":15,"Id":61,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":0.8,"y":9},{"Block_rashet":3,"Glinozem":15,"Id":62,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":0.9,"y":9},{"Block_rashet":3,"Glinozem":15,"Id":63,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1,"y":7.5},{"Block_rashet":3,"Glinozem":15,"Id":64,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1.07,"y":8},{"Block_rashet":3,"Glinozem":15,"Id":65,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1.15,"y":11.5},{"Block_rashet":3,"Glinozem":15,"Id":66,"K_MgO":15,"Nomer_rashet":3,"Temperature":1400,"x":1.2,"y":13},{"Block_rashet":3,"Glinozem":15,"Id":67,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":0.8,"y":8},{"Block_rashet":3,"Glinozem":15,"Id":68,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":0.9,"y":7},{"Block_rashet":3,"Glinozem":15,"Id":69,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1,"y":6},{"Block_rashet":3,"Glinozem":15,"Id":70,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1.07,"y":8},{"Block_rashet":3,"Glinozem":15,"Id":71,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1.15,"y":12},{"Block_rashet":3,"Glinozem":15,"Id":72,"K_MgO":20,"Nomer_rashet":4,"Temperature":1400,"x":1.2,"y":20},{"Block_rashet":4,"Glinozem":12,"Id":73,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":0.8,"y":6},{"Block_rashet":4,"Glinozem":12,"Id":74,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":0.9,"y":6},{"Block_rashet":4,"Glinozem":12,"Id":75,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1,"y":6},{"Block_rashet":4,"Glinozem":12,"Id":76,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1.07,"y":4},{"Block_rashet":4,"Glinozem":12,"Id":77,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1.15,"y":3.5},{"Block_rashet":4,"Glinozem":12,"Id":78,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1.2,"y":3},{"Block_rashet":4,"Glinozem":12,"Id":79,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":0.8,"y":3.2},{"Block_rashet":4,"Glinozem":12,"Id":80,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":0.9,"y":3.5},{"Block_rashet":4,"Glinozem":12,"Id":81,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1,"y":3},{"Block_rashet":4,"Glinozem":12,"Id":82,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1.07,"y":2.5},{"Block_rashet":4,"Glinozem":12,"Id":83,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1.15,"y":2.5},{"Block_rashet":4,"Glinozem":12,"Id":84,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1.2,"y":2},{"Block_rashet":4,"Glinozem":12,"Id":85,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":0.8,"y":2.5},{"Block_rashet":4,"Glinozem":12,"Id":86,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":0.9,"y":2.5},{"Block_rashet":4,"Glinozem":12,"Id":87,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1,"y":2.5},{"Block_rashet":4,"Glinozem":12,"Id":88,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1.07,"y":2.3},{"Block_rashet":4,"Glinozem":12,"Id":89,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1.15,"y":2},{"Block_rashet":4,"Glinozem":12,"Id":90,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1.2,"y":1.9},{"Block_rashet":4,"Glinozem":12,"Id":91,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":0.8,"y":2.5},{"Block_rashet":4,"Glinozem":12,"Id":92,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":0.9,"y":2.5},{"Block_rashet":4,"Glinozem":12,"Id":93,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1,"y":2.3},{"Block_rashet":4,"Glinozem":12,"Id":94,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1.07,"y":2},{"Block_rashet":4,"Glinozem":12,"Id":95,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1.15,"y":2},{"Block_rashet":4,"Glinozem":12,"Id":96,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1.2,"y":2},{"Block_rashet":5,"Glinozem":5,"Id":97,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":0.8,"y":4.8},{"Block_rashet":5,"Glinozem":5,"Id":98,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":0.9,"y":4.5},{"Block_rashet":5,"Glinozem":5,"Id":99,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1,"y":3},{"Block_rashet":5,"Glinozem":5,"Id":100,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1.07,"y":2.7},{"Block_rashet":5,"Glinozem":5,"Id":101,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1.15,"y":2.3},{"Block_rashet":5,"Glinozem":5,"Id":102,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1.2,"y":2.8},{"Block_rashet":5,"Glinozem":5,"Id":103,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":0.8,"y":3.8},{"Block_rashet":5,"Glinozem":5,"Id":104,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":0.9,"y":3},{"Block_rashet":5,"Glinozem":5,"Id":105,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1,"y":2.8},{"Block_rashet":5,"Glinozem":5,"Id":106,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1.07,"y":2.5},{"Block_rashet":5,"Glinozem":5,"Id":107,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1.15,"y":2},{"Block_rashet":5,"Glinozem":5,"Id":108,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1.2,"y":2.7},{"Block_rashet":5,"Glinozem":5,"Id":109,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":0.8,"y":3.3},{"Block_rashet":5,"Glinozem":5,"Id":110,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":0.9,"y":2.5},{"Block_rashet":5,"Glinozem":5,"Id":111,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1,"y":2.3},{"Block_rashet":5,"Glinozem":5,"Id":112,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1.07,"y":2.2},{"Block_rashet":5,"Glinozem":5,"Id":113,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1.15,"y":2.1},{"Block_rashet":5,"Glinozem":5,"Id":114,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1.2,"y":2.6},{"Block_rashet":5,"Glinozem":5,"Id":115,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":0.8,"y":3},{"Block_rashet":5,"Glinozem":5,"Id":116,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":0.9,"y":2.3},{"Block_rashet":5,"Glinozem":5,"Id":117,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1,"y":2.2},{"Block_rashet":5,"Glinozem":5,"Id":118,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1.07,"y":2},{"Block_rashet":5,"Glinozem":5,"Id":119,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1.15,"y":2.2},{"Block_rashet":5,"Glinozem":5,"Id":120,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1.2,"y":2.5},{"Block_rashet":6,"Glinozem":15,"Id":121,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":0.8,"y":7},{"Block_rashet":6,"Glinozem":15,"Id":122,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":0.9,"y":6.4},{"Block_rashet":6,"Glinozem":15,"Id":123,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1,"y":5.7},{"Block_rashet":6,"Glinozem":15,"Id":124,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1.07,"y":5},{"Block_rashet":6,"Glinozem":15,"Id":125,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1.15,"y":4.2},{"Block_rashet":6,"Glinozem":15,"Id":126,"K_MgO":5,"Nomer_rashet":1,"Temperature":1500,"x":1.2,"y":3.2},{"Block_rashet":6,"Glinozem":15,"Id":127,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":0.8,"y":4.8},{"Block_rashet":6,"Glinozem":15,"Id":128,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":0.9,"y":4.5},{"Block_rashet":6,"Glinozem":15,"Id":129,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1,"y":4.2},{"Block_rashet":6,"Glinozem":15,"Id":130,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1.07,"y":3.8},{"Block_rashet":6,"Glinozem":15,"Id":131,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1.15,"y":3.5},{"Block_rashet":6,"Glinozem":15,"Id":132,"K_MgO":10,"Nomer_rashet":2,"Temperature":1500,"x":1.2,"y":2.8},{"Block_rashet":6,"Glinozem":15,"Id":133,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":0.8,"y":4.4},{"Block_rashet":6,"Glinozem":15,"Id":134,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":0.9,"y":3.2},{"Block_rashet":6,"Glinozem":15,"Id":135,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1,"y":3},{"Block_rashet":6,"Glinozem":15,"Id":136,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1.07,"y":3},{"Block_rashet":6,"Glinozem":15,"Id":137,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1.15,"y":2.8},{"Block_rashet":6,"Glinozem":15,"Id":138,"K_MgO":15,"Nomer_rashet":3,"Temperature":1500,"x":1.2,"y":2.5},{"Block_rashet":6,"Glinozem":15,"Id":139,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":0.8,"y":4.3},{"Block_rashet":6,"Glinozem":15,"Id":140,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":0.9,"y":3.1},{"Block_rashet":6,"Glinozem":15,"Id":141,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1,"y":2.9},{"Block_rashet":6,"Glinozem":15,"Id":142,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1.07,"y":2.9},{"Block_rashet":6,"Glinozem":15,"Id":143,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1.15,"y":2.7},{"Block_rashet":6,"Glinozem":15,"Id":144,"K_MgO":20,"Nomer_rashet":4,"Temperature":1500,"x":1.2,"y":2.4}]</value>
+  </data>
+</root>
