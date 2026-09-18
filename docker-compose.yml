@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  # ==========================================
+  # БЭКЕНД: .NET 8.0 API
+  # ==========================================
+  slag-api:
+    build:
+      context: .
+      dockerfile: SlagModeServer/Dockerfile
+    container_name: slagmode-api
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development # Можно сменить на Production позже
+      - ASPNETCORE_URLS=http://+:8080
+    networks:
+      - slagmode-network
+    restart: unless-stopped
+
+  # ==========================================
+  # ФРОНТЕНД: React приложение
+  # ==========================================
+  frontend:
+    build:
+      context: ./MetallurgicApp
+      dockerfile: Dockerfile
+    container_name: metallurgic-frontend
+    ports:
+      - "8000:8000"
+    volumes:
+      # Монтируем исходный код для горячей перезагрузки (Hot Reload) при разработке
+      - ./MetallurgicApp:/app 
+      # Исключаем node_modules из volume, чтобы использовать установленные в контейнере
+      - /app/node_modules
+    networks:
+      - slagmode-network
+    depends_on:
+      - slag-api
+    restart: unless-stopped
+
+# ==========================================
+# СЕТЬ для связи контейнеров
+# ==========================================
+networks:
+  slagmode-network:
+    driver: bridge
