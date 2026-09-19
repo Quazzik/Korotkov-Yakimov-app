@@ -13,7 +13,7 @@ export default defineConfig({
       secure: false,
     },
     '/api/SostavOfAglom': {
-      target: 'http://localhost:5296',
+      target: 'http://console-api:8080',
       changeOrigin: true,
       secure: false,
     },

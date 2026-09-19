@@ -19,6 +19,23 @@ services:
     restart: unless-stopped
 
   # ==========================================
+  # API: расчёт состава аглошихты
+  # ==========================================
+  console-api:
+    build:
+      context: .
+      dockerfile: Console/Dockerfile
+    container_name: console-api
+    ports:
+      - "5296:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:8080
+    networks:
+      - slagmode-network
+    restart: unless-stopped
+
+  # ==========================================
   # ФРОНТЕНД: React приложение
   # ==========================================
   frontend:
@@ -37,6 +54,7 @@ services:
       - slagmode-network
     depends_on:
       - slag-api
+      - console-api
     restart: unless-stopped
 
 # ==========================================
